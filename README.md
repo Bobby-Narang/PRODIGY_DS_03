@@ -1,4 +1,4 @@
-      # Decision Tree Classifier: Customer Purchase Prediction
+# Decision Tree Classifier: Customer Purchase Prediction
 
 ## Overview
 This project predicts whether a customer will purchase a product based on demographic and behavioral data using the **Bank Marketing dataset** from the UCI Repository. The model is a decision tree classifier trained to analyze key features influencing customer behavior.
@@ -13,29 +13,13 @@ Key features:
 - **Age**, **Job**, **Marital Status**, **Education**, **Loan Information**, **Campaign Data**.
 - Target: **Customer purchase (yes/no)**.
 
-## Installation
-Install the required dependencies:
-```bash
-#pip install -r requirements.txt
-
-##Files
+## Files
 Bank3.ipynb: Code for model training and evaluation.
 Worldbank.ipynb: World Bank data analysis.
 PRODIGY_DS_TASK_03 Project Report.docx: Detailed project report.
 README.md: This file.
 
-#Usage
-Clone the repository:
-git clone <repository_url>
-
-
-Navigate to the project directory and open the Jupyter notebook
-
-jupyter notebook Bank3.ipynb
-
-
-Run all cells to view the results.
-Key Insights
+## Key Insights
 Age, Job, and Previous Campaigns are critical features.
 The decision tree model provides good classification accuracy.
 Future Work
